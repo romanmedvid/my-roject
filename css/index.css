@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+header{
+    background-color: #088A08
+}
+.form input {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+
+.form button {
+  float: right;
+  width: 10%;
+  padding: 6px;
+  background: #2196F3;
+  color: white;
+  margin-top: 8px
+ 
+}
+header nav .header-logo {
+    text-align: left;
+    font-family: 'Black Ops One';
+    font-size: 2rem;
+}
+
+header nav .main-menu {
+    display: flex;
+    background-color:  #F7FE2E;
+    justify-content: space-around;
+    height: 50px;
+    align-items:center;
+    border-right-style: 
+}
+
+header nav .main-menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Righteous';
+}
+
+header nav .main-menu a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+  
