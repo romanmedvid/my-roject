@@ -1,67 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
-@import url('https://fonts.googleapis.com/css?family=Righteous');
-header{
-    background-color: #088A08
-}
-.form input {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Mitr');
+
+.header {
+    background-image: url(../img/background/manwithcroosbow3.jpg);
+    background-size: cover;
+    min-height: 200px;
 }
 
-
-.form button {
-  float: right;
-  width: 10%;
-  padding: 6px;
-  background: #2196F3;
-  color: white;
-  margin-top: 8px
- 
-}
-header nav .header-logo {
-    text-align: left;
-    font-family: 'Black Ops One';
-    font-size: 2rem;
+.header-logo {
+    font-family: 'Allerta Stencil';
+    color: white;
+    font-size: 3rem;
 }
 
-header nav .main-menu {
+.main-menu {
+    font-family: 'Mitr';
+    font-size: 20px;
     display: flex;
-    background-color:  #F7FE2E;
     justify-content: space-around;
+    align-content: flex-end;
+    background-color: #F7FE2E;
     height: 50px;
-    align-items:center;
-     
+    align-items: center;
 }
 
-header nav .main-menu a {
+.main-menu a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-family: 'Righteous';
 }
 
-header nav .main-menu a:hover {
-    text-decoration: none;
-}
-
-.footer{
-    height: 200px;
-    width: auto;
-    background-color: #1C1C1C;
-}
-.footer-logo{
+.productsheader {
+    display: flex;
+    font-family: 'Mitr';
     color: white;
-    font-family: 'Righteous';
+    height: 50px;
+    margin: auto;
+    background-color: #2E2E2E;
+    justify-content: center;
+}
+
+.maintext {
+    font-family: 'Mitr';
+    width: 100%;
+    background-image: url(../img/background/archery.jpg);
+    background-size: cover;
+
+   
     
 }
 
-
-
-
-
-
-  
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
