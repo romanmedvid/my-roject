@@ -45,15 +45,74 @@
     background-image: url(../img/background/archery.jpg);
     background-size: cover;
 
-   
-    
+
+
+}
+
+
+
+.someproducts {
+    display: flex;
+    font-family: 'Mitr';
+    color: white;
+    height: 50px;
+    margin: auto;
+    background-color: #2E2E2E;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E2E2E;
+
+    align-items: center;
+
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  background-color: white;
-  width: 100%;
+    background-color: #C03D3D;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+
+    width: 100%;
+}
+
+body {
+    margin-bottom: 500px;
+}
+
+.footer-logo {
+    display: flex;
+    font-family: 'Mitr';
+
+    margin: 0;
+    justify-content: center;
+}
+
+.copyright {
+
+    display: flex;
+    font-family: 'Mitr';
+    justify-content: center;
+}
+.footerimg{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.telegram{
+    height: 50px;
+    width: 50px;
+}
+.face{
+    height: 50px;
+    width: 50px;
+}
+.youtube{
+    height: 50px;
+    width: 50px;
 }
